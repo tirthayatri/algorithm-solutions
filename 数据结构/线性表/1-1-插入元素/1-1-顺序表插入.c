@@ -55,15 +55,15 @@ int main() {
     insertEnd(&va, 5);
     insertEnd(&va, 7);
     
-    printf("ÊäÈë£º");
+    printf("è¾“å…¥ï¼š");
     printList(&va);
     
     int x = 3;
-    printf("ÊäÈë£º%d\n", x);
+    printf("è¾“å…¥ï¼š%d\n", x);
     
     INSERT_ORDER(&va, x);
     
-    printf("Êä³ö£º");
+    printf("è¾“å‡ºï¼š");
     printList(&va);
     
     return 0;
